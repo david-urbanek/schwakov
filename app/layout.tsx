@@ -1,16 +1,16 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import {Navbar1} from "@/app/components/Navigation";
+import {Footer2} from "@/app/components/Footer";
+import { Inter } from "next/font/google"
+import {Contact7} from "@/app/components/Contact";
+import Header from "@/app/components/Header";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
+const inter = Inter({
+    subsets: ["latin"],
+    display: "swap",
+    variable: "--font-sans",
+})
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -23,11 +23,20 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
+    <html lang="cz" className="scroll-smooth">
+    <head>
+        <meta name="viewport" content="initial-scale=1, width=device-width" />
+    </head>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+          className={`${inter.variable} ${inter.variable} antialiased flex flex-col justify-center px-4 md:px-8 py-6 md:py-8 gap-8 min-h-screen bg-background text-foreground`}      >
+      <Header></Header>
+      <main className="flex flex-col gap-20 md:gap-28 max-w-7xl mx-auto w-full">
+          {children}
+          <Contact7></Contact7>
+      </main>
+      <footer className="max-w-7xl mx-auto w-full">
+          <Footer2></Footer2>
+      </footer>
       </body>
     </html>
   );

@@ -36,12 +36,12 @@ export default function TechPage() {
                         <h2>{tech.name}</h2>
                         <p>{tech.text}</p>
                     </div>
-                    <div className="rounded-2xl overflow-hidden">
+                    <div className="rounded-2xl overflow-hidden max-w-130 min-w-1/2">
                         <Image src={tech.src}
                                alt={tech.alt}
                                width={tech.width}
                                height={tech.height}
-                               className="max-h-150"
+
                                fetchPriority="high"
                                sizes="(max-width: 640px) 100vw,
                                         (max-width: 1024px) 90vw,
@@ -51,9 +51,9 @@ export default function TechPage() {
                 </div>
             ) : (
                 <div key={tech.name} className="flex flex-col md:flex-row justify-center items-center gap-8">
-                    <div className="rounded-2xl overflow-hidden">
+                    <div className="rounded-2xl overflow-hidden max-w-130 min-w-1/2">
                         <Image src={tech.src} alt={tech.alt} width={tech.width} height={tech.height}
-                               className="max-h-150"
+
                                fetchPriority="high"
                                sizes="(max-width: 640px) 100vw,
                                         (max-width: 1024px) 90vw,

@@ -180,7 +180,6 @@ export default function Home() {
                     {/* Hero section video*/}
                     <div className="hidden md:flex lg:min-w-100">
                         <video src="/videos/hero-video.mp4"
-                               controls
                                autoPlay
                                muted
                                loop

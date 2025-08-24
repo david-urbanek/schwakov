@@ -20,6 +20,7 @@ import Image from "next/image";
 import CarouselAutoPlay from "@/app/components/Carousel";
 import React, {JSX} from "react";
 import Link from "next/link";
+import HeroVideo from "@/app/components/HeroVideo";
 
 type HeroItem = { heading: string; text: string; icon: LucideIcon };
 type ServiceItem = {
@@ -179,12 +180,7 @@ export default function Home() {
                     </div>
                     {/* Hero section video*/}
                     <div className="hidden md:flex lg:min-w-100">
-                        <video src="/videos/hero-video.mp4"
-                               autoPlay
-                               muted
-                               loop
-                               className="rounded-lg"
-                        />
+                        <HeroVideo></HeroVideo>
                     </div>
                 </section>
             {/* Partner section*/}

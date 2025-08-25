@@ -33,7 +33,6 @@ const Footer2 = ({
                          alt: "Logo firmy Schwakov",
                          title: "schwakov.com",
                      },
-                     tagline = "Components made easy.",
                      menuItems = [
                          {
                              title: "Odkazy:",
@@ -46,8 +45,7 @@ const Footer2 = ({
                      ],
                      copyright = "© 2025 schwakov.com. All rights reserved.",
                      bottomLinks = [
-                         {text: "Terms and Conditions", url: "#"},
-                         {text: "Privacy Policy", url: "#"},
+                         {text: "Ochrana osobních udajů", url: "/ochrana-osobnich-udaju"},
                      ],
                  }: Footer2Props) => {
     return (
@@ -87,6 +85,31 @@ const Footer2 = ({
                                     <a href={link.url}>{link.text}</a>
                                 </li>
                             ))}
+                        </ul>
+                    </div>
+                    <div
+                        className="text-muted-foreground mt-8 flex flex-col justify-between gap-4 text-sm font-medium md:flex-row md:items-center">
+                        <ul className="flex flex-col gap-4">
+                            <li className="hover:text-primary underline">
+                                <p>SCHWÄKOV  s. r. o.</p>
+                            </li>
+                            <li className="hover:text-primary underline">
+                                <p>Průmyslová 2291/9a</p>
+                            </li>
+                            <li className="hover:text-primary underline">
+                                <p>568 02 Svitavy</p>
+                            </li>
+                            <li className="hover:text-primary underline">
+                                <p>Česká republika</p>
+                            </li>
+                        </ul>
+                        <ul className="flex flex-col gap-4">
+                                <li className="hover:text-primary underline">
+                                    <p>IČ: 28770552</p>
+                                </li>
+                                <li className="hover:text-primary underline">
+                                    <p>DIČ: CZ28770552</p>
+                                </li>
                         </ul>
                     </div>
                 </footer>

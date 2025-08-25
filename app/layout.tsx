@@ -4,6 +4,7 @@ import {Footer2} from "@/app/components/Footer";
 import { Inter } from "next/font/google"
 import {Contact7} from "@/app/components/Contact";
 import Header from "@/app/components/Header";
+import CookieBanner from "@/app/components/CookieBanner";
 
 const inter = Inter({
     subsets: ["latin", "latin-ext" ],
@@ -35,6 +36,7 @@ export default function RootLayout({
       <main className="flex flex-col gap-20 md:gap-28 max-w-7xl mx-auto w-full">
           {children}
           <Contact7></Contact7>
+          <CookieBanner></CookieBanner>
       </main>
       <footer className="max-w-7xl mx-auto w-full">
           <Footer2></Footer2>

@@ -12,7 +12,7 @@ import {
     Car, CarIcon,
     Droplets,
     RefreshCcw,
-    ShieldAlert
+    ShieldAlert, ShieldCheck
 } from "lucide-react";
 import type {LucideIcon} from "lucide-react"
 import {MarqueeDemo} from "@/app/components/Marquee";
@@ -70,7 +70,7 @@ export default function Home() {
             width: 800,
             height: 533,
             alt: "Znečištěný vodní tok plný odpadků uprostřed industrialní zóny",
-            icon: CarIcon
+            icon: ShieldCheck
         },
         {
             heading: "Úprava rybníků a vodních nádrží",
@@ -93,7 +93,7 @@ export default function Home() {
             icon: Bubbles
         },
         {
-            text: "Evidence a předávací protokoly v digitální podobě",
+            text: "Rychlá logistika a mobilní nasazení",
             icon: CarIcon
         }
 

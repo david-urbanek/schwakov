@@ -1,4 +1,4 @@
-import { Book, Menu, Sunset, Trees, Zap } from "lucide-react";
+import { Menu } from "lucide-react";
 
 import {
     Accordion,
@@ -71,10 +71,10 @@ const Navbar1 = ({
             <div>
                 {/* Desktop Menu */}
                 <nav className="hidden justify-between items-centers lg:flex">
-                    <div className="flex items-center gap-6">
+                    <div className="flex items-center gap-8">
                         {/* Logo */}
-                        <Link href={logo.url} className="flex items-center gap-2">
-                            <Image src={logo.src} alt={logo.alt} width={500} height={104} className="h-10 w-56"></Image>
+                        <Link href={logo.url} className="flex items-center gap-2 max-h-8 max-w-36">
+                            <Image src={logo.src} alt={logo.alt} width={500} height={104} priority ></Image>
                         </Link>
                         <div className="flex items-center">
                             <NavigationMenu>
@@ -95,11 +95,14 @@ const Navbar1 = ({
                 <div className="block lg:hidden">
                     <div className="flex items-center justify-between">
                         {/* Logo */}
-                        <a href={logo.url} className="flex items-center gap-2">
-                            <img
+                        <a href={logo.url} className="flex items-center max-h-8 max-w-36">
+                            <Image
+                                width={500}
+                                height={104}
                                 src={logo.src}
                                 className="max-h-8 dark:invert"
                                 alt={logo.alt}
+                                priority
                             />
                         </a>
                         <Sheet>

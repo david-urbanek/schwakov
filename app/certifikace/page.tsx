@@ -1,6 +1,11 @@
 import {TextAnimate} from "@/components/magicui/text-animate";
 import React from "react";
+import {Metadata} from "next";
 
+export const metadata: Metadata = {
+  title: "Certifikace | Schwakov",
+  description: "Přehled certifikací a osvědčení společnosti Schwakov. Naše technologie úpravy vody splňují nejpřísnější evropské i mezinárodní normy.",
+};
 export default function certificationPage() {
   return <section className="flex flex-col gap-8">
     <TextAnimate animation="blurInUp" by="word" once as="h1" startOnView={true}>Certifikace</TextAnimate>

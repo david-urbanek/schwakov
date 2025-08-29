@@ -5,6 +5,8 @@ import Image from "next/image";
 import {useViewport} from "@/app/hooks/useViewport";
 import {TextAnimate} from "@/components/magicui/text-animate";
 import React from "react";
+import {Metadata} from "next";
+
 
 export default function TechPage() {
     const {width} = useViewport();

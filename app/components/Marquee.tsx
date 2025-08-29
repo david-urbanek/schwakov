@@ -48,11 +48,11 @@ const partnersLogos: PartnerLogo[] = [
     },
     {
         username: "letisteVH",
-        src: "/images/partners/letiste-vaclava-havla-logo.png",
+        src: "/images/partners/aeroklub-logo.png",
         width: 500,
         height: 680,
-        alt: "Logo pražského letiště Václava Havla",
-        href: "https://www.prg.aero/#/"
+        alt: "Logo aeroklubu České republiky",
+        href: "https://www.aeroklub.cz/"
     },
     {
         username: "praha",

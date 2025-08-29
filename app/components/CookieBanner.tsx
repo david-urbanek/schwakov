@@ -40,7 +40,8 @@ export default function CookieBanner() {
                     <Link href="/ochrana-osobnich-udaju" className="underline font-medium">
                         Zásadách ochrany osobních údajů
                     </Link>
-                </p></div>
+                </p>
+                </div>
 
             </div>
             <div className="flex justify-end gap-2">

@@ -1,3 +1,11 @@
+import {Metadata} from "next";
+
+
+export const metadata: Metadata = {
+    title: "Ochrana osobních údajů | Schwakov",
+    description: "Seznamte se s tím, jak společnost Schwakov nakládá s osobními údaji v souladu s GDPR. Transparentně popisujeme, jaké údaje shromažďujeme, jak je chráníme a jaká máte práva.",
+};
+
 export default function privacyPolicy(){
     return(
         <>

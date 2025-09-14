@@ -153,13 +153,13 @@ export default function Home() {
 
                             <div
                                 className="bg-gray-100 rounded-2xl py-2 px-4 text-center font-medium max-w-3/4 mx-auto">
-                                <p>Zajišťujeme likvidace kapalných odpadů</p>
+                                <p>Mobilní řešení pro úpravu průmyslových vod</p>
                             </div>
 
                             <div className="flex flex-col gap-4">
                                 <TextAnimate animation="blurInUp" by="word" once as="h1" startOnView={true}>Bezpečná úprava vody v terénu</TextAnimate>
 
-                                <h3 className="font-medium text-gray-500">Odstraňujeme nebezpečné látky
+                                <h3 className="font-medium text-gray-500">Zajišťujeme likvidace kapalných odpadů
                                     a chráníme životní prostředí. Přijedeme, vyřešíme, odjedeme</h3>
 
 

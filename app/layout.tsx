@@ -14,7 +14,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
     title: "Schwakov – Bezpečná úprava vody v terénu",
-    description: "Schwakov s. r. o. – odborníci na moderní technologie úpravy vody. Poskytujeme certifikovaná řešení pro firmy i jednotlivce.",
+    description: "Schwakov s. r. o. – odborníci na likvidaci kapalných odpadů. Poskytujeme certifikovaná řešení pro firmy i jednotlivce.",
 };
 
 export const viewport: Viewport = {

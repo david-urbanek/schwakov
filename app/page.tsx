@@ -48,7 +48,7 @@ export default function Home() {
         },
         {
             heading: "Udržitelnost",
-            text: "Minimalizujeme vývoz odpadů a snižujeme uhlíkovou stopu",
+            text: "Minimalizujeme vývoz Vašich odpadů",
             icon: RefreshCcw
         },
     ]
@@ -89,7 +89,7 @@ export default function Home() {
             icon: ArrowDownToLine
         },
         {
-            text: "Vakuové čističny, mobilní filtrace a dočištění",
+            text: "Vakuové čistirny, mobilní filtrace a dočištění",
             icon: Bubbles
         },
         {
@@ -153,7 +153,7 @@ export default function Home() {
 
                             <div
                                 className="bg-gray-100 rounded-2xl py-2 px-4 text-center font-medium max-w-3/4 mx-auto">
-                                <p>Mobilní řešení pro úpravu průmyslových vod</p>
+                                <p>Zajišťujeme likvidace kapalných odpadů</p>
                             </div>
 
                             <div className="flex flex-col gap-4">

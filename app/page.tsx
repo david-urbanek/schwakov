@@ -89,7 +89,7 @@ export default function Home() {
             icon: ArrowDownToLine
         },
         {
-            text: "Vakuové čistirny, mobilní filtrace a dočištění",
+            text: "Vakuové čistírny, mobilní filtrace a dočištění",
             icon: Bubbles
         },
         {

@@ -157,9 +157,9 @@ export default function Home() {
                             </div>
 
                             <div className="flex flex-col gap-4">
-                                <TextAnimate animation="blurInUp" by="word" once as="h1" startOnView={true}>Bezpečná úprava vody v terénu</TextAnimate>
+                                <TextAnimate animation="blurInUp" by="word" once as="h1" startOnView={true}>Zajišťujeme likvidace kapalných odpadů</TextAnimate>
 
-                                <h3 className="font-medium text-gray-500">Zajišťujeme likvidace kapalných odpadů
+                                <h3 className="font-medium text-gray-500">Odstraňujeme nebezpečné látky
                                     a chráníme životní prostředí. Přijedeme, vyřešíme, odjedeme</h3>
 
 

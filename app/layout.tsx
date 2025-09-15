@@ -15,6 +15,9 @@ const inter = Inter({
 export const metadata: Metadata = {
     title: "Schwakov – Likvidace kapalných odpadů",
     description: "Schwakov s. r. o. – Odborníci na likvidaci kapalných odpadů. Poskytujeme certifikovaná řešení pro firmy i jednotlivce.",
+    verification: {
+        google: "cvqmpNoT9m09vkB2imkSaRYAJs9trgFSxMbvVXfSPeY",
+    },
 };
 
 export const viewport: Viewport = {
